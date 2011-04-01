@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>iconify_test</title>
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" ></script>
+	<script type="text/javascript" src="js/iconify.js" ></script>
+	
+	<script type="text/javascript" >
+		//Calling iconify
+		//location of images //prefix if none = "" //image type // exclude file types
+		$.fn.iconify("images/doc_types/", "icon_", ".gif", "html js");
+	</script>
+	
+</head>
+<body>
+
+	<ul>
+		<li><a href="this.pdf">pdf</a></li>
+		<li><a href="this.html">html</a></li>
+		<li><a href="this.js">js</a></li>
+		<li><a href="this.fla">fla</a></li>
+		<li><a href="this.mp3">mp3</a></li>
+		<li><a href="that.wav">wav</a></li>
+		<li><a href="this.psd">psd</a></li>
+		<li><a href="this.swf">swf</a></li>
+		<li><a href="directory/">directory</a></li>
+		<li><a href="this.swf">swf</a></li>
+	</ul>
+
+</body>
+</html>
